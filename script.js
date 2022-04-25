@@ -29,7 +29,7 @@ function changeLinkDate() {
     getDay = "morning/";
   }
   if (+getTime > 12 && +getTime < 17.59) {
-    getDay = "day/";
+    getDay = "afternoon/";
   }
   if (+getTime > 18 && +getTime < 23.59) {
     getDay = "evening/";
